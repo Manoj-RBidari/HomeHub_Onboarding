@@ -96,7 +96,6 @@ static uint8_t Received_Wifi_SSID[3];
  *****************************************************************************/
 SL_WEAK void app_init(void)
 {
-  sl_sleeptimer_init();
   /////////////////////////////////////////////////////////////////////////////
   // Put your additional application init code here!                         //
   // This is called once during start-up.                                    //
